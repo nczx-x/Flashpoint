@@ -58,5 +58,3 @@ This is a public, sanitized copy of Flashpoint with private credentials removed.
 - `brain/` - heuristics and detection logic
 - `api/` - Stack API client management
 - `utils/` - helpers and logging
-
-If you want, I can add a `.env.example` file and a recommended `.gitignore` to this repository.
