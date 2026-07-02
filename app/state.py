@@ -1,5 +1,13 @@
 import time
 
+class BotState:
+    def __init__(self):
+        self.scanned_count = 0
+        self.alert_count = 0
+        self.quota_remaining = 0
+        self.ai_threshold = 35
+        self.last_alert_link = "None"
+        self.feedback = {'true': 0, 'false': 0}
 
 class AppState:
     def __init__(self):
